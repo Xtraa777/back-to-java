@@ -26,32 +26,30 @@ public class ProductAdminEx {
                         productPrices[productCount] = sc.nextInt();
 
                         productCount++;
-                        continue;
+                        break;
                     } else {
                         System.out.println("더 이상 상품을 등록할 수 없습니다.");
-                        continue;
+                        break;
                     }
 
                 case 2:
                     if (productCount == 0) {
                         System.out.println("등록된 상품이 없습니다.");
-                        continue;
+                        break;
                     } else {
                         for (int i = 0; i < productCount; i++) {
                             System.out.println(productNames[i] + ": " + productPrices[i] + "원");
                         }
-                        continue;
+                        break;
                     }
 
                 case 3:
                     System.out.println("프로그램을 종료합니다.");
-                    break;
+                    return;
 
                 default:
                     System.out.println("잘못된 메뉴를 선택하셨습니다.");
-                    continue;
             }
-            break;
         }
 
     }
