@@ -1,7 +1,6 @@
 Back to Java
 ---
-자바 공부 기록  
-[Wiki](https://github.com/Xtraa777/back-to-java/wiki)  
+[자바 공부 기록](https://github.com/Xtraa777/back-to-java/wiki)  
 
 디렉토리 간단 구조
 ---
